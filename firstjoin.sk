@@ -1,0 +1,4 @@
+on first join:
+    send "&#b993fa%player% logged into the server for the first time."
+	#Discord; Erisos#7322
+    #WebSite; team.dragoncube.games

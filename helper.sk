@@ -1,0 +1,42 @@
+command /helper:
+    trigger:
+        if sender is a player:
+            send "&#fcf562&lSunucu Rehberi" to player
+            send "&#fff47a[/is] &#e0d343Creates your Skyblock island." to player
+            send "&#fff47a[/is go 1-5] &#e0d343Return to your Skyblock island." to player
+            send "&#fff47a[/is reset] &#e0d343Delete your island, and return you to the GUI to choose a different one" to player
+            send "&#fff47a[/is sethome 1-5] &#e0d343Set your home teleport point" to player
+            send "&#fff47a[/is home 1-5] &#e0d343Teleports you to home <home>." to player
+            send "&#fff47a[/is level] &#e0d343View your Skyblock island level." to player
+            send "&#fff47a[/is level {isim}] &#e0d343View the top 20 highest leveled Skyblock islands." to player
+            send "&#fff47a[/is top] &#e0d343Show the Top Ten" to player
+            send "&#fff47a[/is value] &#e0d343Displays the experience value toward island leveling of the held item." to player
+            send "&#fff47a[/is warp {isim}] &#e0d343Warps you to <player>’s island, provided they have a [WELCOME] sign." to player
+            send "&#fff47a[/is team] &#e0d343Manage your team" to player
+            send "&#fff47a[/is teamchat] &#e0d343Toggles team chat on/off" to player
+            send "&#fff47a[/is invite {isim}] &#e0d343Invites <player> to join your island as a team member." to player
+            send "&#fff47a[/is kick {isim}] &#e0d343Kicks a player from your island team." to player
+            send "&#fff47a[/is leave] &#e0d343Leaves your island team, provided you are a team member." to player
+            send "&#fff47a[/is expel {isim}] &#e0d343Removes <player> from your island." to player
+            send "&#fff47a[/is ban {isim}] &#e0d343Ban a player from your island" to player
+            send "&#fff47a[/is banlist] &#e0d343List banned players" to player
+            send "&#fff47a[/is unban {isim}] &#e0d343Unban a player from your island" to player
+            send "&#fff47a[/is lock] &#e0d343Deny all players from visiting your Skyblock." to player
+            send "&#fff47a[/is unlock] &#e0d343Allow all players to visit your Skyblock." to player
+            send "&#fff47a[/is biomes] &#e0d343Change your Skyblock biome." to player
+            send "&#fff47a[/is settings] &#e0d343Control various settings on what visitors are allowed or not allowed to interact with." to player
+            execute console command "discord"
+
+command /support:
+    trigger:
+        send "&#d42427Join our discord server to get fast support in case of emergency." to player
+        send "&#7289d9https://discord.gg/hypixel" to player
+
+command /discord:
+    trigger:
+        send "&#a3b4f0Time to have fun by joining my Discord server." to player
+        send "&#7289d9https://discord.gg/hypixel" to player
+
+
+	#Discord; Erisos#7322
+    #WebSite; team.dragoncube.games

@@ -1,0 +1,15 @@
+command /chatclear:
+    trigger:
+        loop 60 times:
+            send "&r" to players
+        wait 1 second
+        send "&#6eff61The chat has been successfully cleared by %player%." to players
+
+command /chatclearnameless:
+    trigger:
+        loop 60 times:
+            send "&r" to players
+        wait 1 second
+        send "&#6eff61The chat has been successfully cleared." to players
+	#Discord; Erisos#7322
+    #WebSite; team.dragoncube.games
